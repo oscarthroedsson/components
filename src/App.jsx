@@ -1,9 +1,10 @@
 import Colorpallet from "./components/colorPallet/Colorpallet";
+import FloatingNavBar from "./components/navbars/FloatingNavbar";
 
 function App() {
   return (
     <>
-      <Colorpallet />
+      <FloatingNavBar />
     </>
   );
 }

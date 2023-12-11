@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@200;400;600;800&display=swap");
+
+* {
+  font-family: Onest;
+}
+
+/* Animation for hovering over the links */
+.links > a {
+  display: inline-block;
+  position: relative;
+}
+
+.links > a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  /* Koller ov the underline */
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.links > a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.CalBtn:hover {
+  box-shadow: 0 0 0 3px white; /* Skapar en vit box-shadow runt knappen vid hover */
+}
