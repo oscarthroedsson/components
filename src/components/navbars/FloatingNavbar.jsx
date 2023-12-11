@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./customCssFloatingNavbar.css";
 import componentIcon from "./assets/icons/componentIcon.svg";
 import aboutUs from "./assets/icons/aboutUs.svg"; //replace with your own icon
