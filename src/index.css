@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Center the components i build */
+body {
+  height: 100vb;
+  display: grid;
+  place-content: center;
+  align-items: center;
+}
